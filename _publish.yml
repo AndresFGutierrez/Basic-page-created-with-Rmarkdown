@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 7759a68e-ad10-4ca8-b4b9-29f24d988c2e
+      url: 'https://andresfgutierrez.quarto.pub/las-partes-del-computador'

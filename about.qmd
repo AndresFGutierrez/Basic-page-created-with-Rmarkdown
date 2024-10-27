@@ -1,0 +1,29 @@
+---
+title: "Sobre Mi"
+format: 
+  html:
+    css: styles.css
+---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+# Acerca de mí
+
+::: {style="text-align: center;"}
+<img src="https://media.licdn.com/dms/image/v2/D4E03AQEWtxWztMmpYQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1701543556576?e=1734566400&amp;v=beta&amp;t=wqVUFj_WV2ZYvP0rFuCByaz5eLCE2NKQs9nhca7_VWw" alt="Foto de perfil" style="border-radius: 50%; width: 200px;"/>
+:::
+
+::: {style="text-align: center; margin-top: 20px;"}
+<a href="https://www.linkedin.com/in/andresf-gutierrez/" target="_blank" style="text-decoration: none; color: #0077B5; font-size: 1.5rem; margin-right: 15px;"> <i class="fab fa-linkedin"></i> LinkedIn </a> <a href="https://github.com/AndresFGutierrez" target="_blank" style="text-decoration: none; color: #333; font-size: 1.5rem;"> <i class="fab fa-github"></i> GitHub </a>
+:::
+
+## Sobre mí
+
+Soy Andrés Gutiérrez, un estudiante de 19 años apasionado por el desarrollo de software y con un enfoque decidido en mi crecimiento personal y profesional. Desde que comencé mi formación en 2021, he adquirido conocimientos sólidos en áreas como marketing, diseño, y programación, destacando en lenguajes como C++, C#, HTML, CSS, Java y JavaScript, PHP.
+
+Mi compromiso con el aprendizaje y mi dedicación se reflejan en mi capacidad para trabajar en equipo, investigar y desarrollar soluciones efectivas. A pesar de mi edad, he demostrado ser una persona cumplida y comprometida con mis objetivos.
+
+Con el tiempo, he cultivado habilidades valiosas que van más allá de la programación, incluyendo la capacidad de trabajar en equipo, la investigación efectiva y el desarrollo de soluciones innovadoras. Actualmente, estoy estudiando tecnología en desarrollo de software, y estoy emocionado por la oportunidad de aplicar mis habilidades en un entorno profesional.
+
+Tu empresa busca alguien que pueda aportar ideas frescas y cumplir con las exigencias del trabajo, y estoy convencido de que puedo ser una adición valiosa a tu equipo. Estoy listo para enfrentar nuevos desafíos y contribuir al éxito de tu empresa con mi actitud responsable, mi ética de trabajo y mi enfoque innovador.
+

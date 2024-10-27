@@ -1,0 +1,83 @@
+---
+title: "Las partes del computador"
+format: 
+  html:
+    css: styles.css
+---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+# Las partes del computador
+
+El computador de escritorio cuenta con varias partes que son necesarias para su funcionamiento. Entre ellas están la torre, la pantalla, el ratón y el teclado.
+
+En el video que encontrarás a continuación, verás una explicación más detallada:
+
+::: {style="text-align: center;"}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xaunkTpylEw" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
+:::
+
+## La torre
+
+Es una carcasa de metal o plástico, y quizá, la parte más importante del computador. En su interior se encuentran componentes que hacen que todas las otras partes cumplan su función. Es el equivalente al cerebro del computador.
+
+En las partes de adelante y atrás tiene puertos y botones donde puedes conectar más partes o encender y apagar el equipo. Su ubicación cambia según el modelo del equipo.
+
+::: {style="text-align: center;"}
+<img src="https://aprendelibvrefiles.blob.core.windows.net/aprendelibvre-container/course/informatica_basica/image/torre1-01_xl.png" alt="Torre PC" width="650" style="display: block; margin-left: auto; margin-right: auto;"/>
+:::
+
+### Parte frontal de la torre
+
+-   **Botón de encendido**: Este botón sirve para encender y apagar tu equipo. Muchos computadores tienen modo de ahorro de energía; opciones como sueño, hibernación y reposo.
+-   **Unidad de CD/DVD-ROM**: Le permite al computador leer y grabar CD y DVD. Las unidades más recientes pueden leer y escribir en discos Blu-Ray para videos en alta definición. Un típico disco Blu-Ray almacena más cantidad de datos que los DVD o CD.
+-   **Expulsar unidad de DVD-ROM**: Este botón expulsa o abre el CD o DVD de la unidad.
+-   **Puertos USB**: Sirven para conectar el ratón, teclado, impresora, cámara digital y más; se encuentran en la parte delantera y trasera del equipo.
+-   **Entrada y salida de audio**: Para conectar fácilmente altavoces, micrófonos y auriculares, muchos equipos incluyen puertos de audio en el frente de la caja de la computadora.
+
+> Temo el día en el cual la tecnología sobrepase nuestra interacción humana. El mundo tendrá una generación de idiotas. — **Albert Einstein**
+
+::: {style="text-align: center;"}
+<button type="button" class="btn btn-primary" onclick="toggleContent()">
+
+Leer Más
+
+</button>
+:::
+
+:::: {#extraContent style="display: none; opacity: 0; max-height: 0; overflow: hidden; transition: max-height 0.5s ease, opacity 0.5s ease;"}
+## Monitor o pantalla
+
+El monitor del computador, también conocido como pantalla, muestra la información de tu equipo como imágenes y textos, que son generados gracias a una tarjeta de video que se encuentra en el interior de la torre del computador.
+
+::: {style="text-align: center;"}
+<img src="https://media.gcflearnfree.org/content/5ce56bebc0220e22c08b9f74_05_22_2019/monitor-01_xl.png" alt="Pantalla PC" width="650" style="display: block; margin-left: auto; margin-right: auto;"/>
+:::
+
+La función del monitor es que puedas interactuar con el computador, con la ayuda del ratón y el teclado.
+
+Hay varios tipos de monitores. Algunos son muy grandes, como una caja. Estos pueden tener tecnología de tubos de rayos catódicos (CRT, por sus siglas en inglés), que permiten visualizar imágenes mediante un haz de rayos catódicos.
+
+Existen otros que son bastante delgados y pueden usar una pantalla de cristal líquido (LCD), un diodo emisor de luz (LED) o pantallas de plasma.
+
+Las pantallas muestran las imágenes a través de pixeles, que son las unidades básicas de una imagen. La resolución de los monitores depende de la cantidad de píxeles que estos tengan.
+::::
+
+<script>
+  function toggleContent() {
+    var content = document.getElementById("extraContent");
+    if (content.style.display === "none" || content.style.display === "") {
+      content.style.display = "block";
+      content.style.maxHeight = content.scrollHeight + "px";
+      content.style.opacity = "1";
+    } else {
+      content.style.maxHeight = "0";
+      content.style.opacity = "0";
+      setTimeout(function() {
+        content.style.display = "none";
+      }, 500); 
+    }
+  }
+</script>
